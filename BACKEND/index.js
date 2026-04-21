@@ -26,7 +26,7 @@ app.use(express.json());
 
 app.use(cors(
    {
-     origin :  "http://localhost:5173",
+     origin :  "https://restaurant-app-one-dusky.vercel.app",
     credentials : true
    }
 ));
